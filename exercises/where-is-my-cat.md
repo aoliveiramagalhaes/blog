@@ -34,7 +34,7 @@ const randomBox = (max) => {
 }
 ```
 
-### Create a click handler
+#### Create a click handler
 
 
 ```javascript
@@ -44,7 +44,7 @@ const handleBoxClick = (boxNumber) => {
 }
 ```
 
-### Link the boxes with your click handler
+#### Link the boxes with your click handler
 
 
 ```html
