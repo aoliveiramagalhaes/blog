@@ -2,7 +2,7 @@
 
 Let's display three boxes, and hide a cat in one of them. Then let's find out in which box the cat is hidden.
 
-1. Create a `where-is-my-cat.html`
+1. Create a `where-is-my-cat.html`. See [sample.html](./sample.html)
 2. Create an empty `where-is-my-cat.js` 
 3. Add `<script src='./where-is-my-cat.js'></script>` in your new HTML file
 4. Find a cool box image
