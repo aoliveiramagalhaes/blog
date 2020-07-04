@@ -5,6 +5,11 @@
 The example below, create a function named `sum` and it takes two parameters `a` and `b` and it returns the sum of them.
 
 ```javascript
+const functionName = (paramOne, paramTwo) => {
+  // this is the function body
+}
+
+
 const sum = (a, b) => {
   return a + b
 }
@@ -18,9 +23,9 @@ For invoking a function we call the function using its name, in this case `sum` 
 sum(1, 2)
 ```
 
-Referencing a function without using `()` does not call the function.
+Referencing a function without using `()`, for example `sum` does not call the function.
 
-If a function has no argument, we need to call it passing empty parenthesis.
+If a function has no arguments, we need to call it passing empty parenthesis.
 
 
 ```javascript
