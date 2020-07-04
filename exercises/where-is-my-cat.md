@@ -10,9 +10,9 @@ Let's display three boxes, and hide a cat in one of them. Then let's find out in
 6. Create a function to pick a random number
 7. Create a click handler
 8. Link the boxes with your click handler
-9. Make it work
-10. Profit
-11. Bonus
+9. Make it work :pray:
+10. Profit :tada:
+11. Bonus :star:
 
 
 #### Display your images
