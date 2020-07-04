@@ -1,7 +1,7 @@
-# Notes
+### Notes
 
 * [Functions](./functions.md)
 
-### Excercises
+### Exercises
 
 * [Where's my cat?](./exercises/where-is-my-cat.md)
