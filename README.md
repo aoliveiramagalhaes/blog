@@ -1,4 +1,7 @@
-# blog
+# Notes
 
+* [Functions](./functions.md)
 
-* [functions](./functions.md)
+### Excercises
+
+* [Where's my cat?](./exercises/where-is-my-cat.md)
