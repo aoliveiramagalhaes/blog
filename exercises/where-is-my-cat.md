@@ -27,7 +27,7 @@ Let's display three boxes, and hide a cat in one of them. Then let's find out in
 
 ```javascript
 const randomBox = (max) => {
-  // returning a random number from 1 to max
+  // this function returns a random number from 1 to max
   // for example, if max is 3, it can return 1, 2 or 3
   
   return Math.ceil(Math.random() * max)
