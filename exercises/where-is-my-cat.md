@@ -1,6 +1,6 @@
 ### Where's my cat?
 
-Let's display three box, hide a cat in box and let the users find where's the cat. 
+Let's display three boxes, and hide a cat in one of them. Then let's find out in which box the cat is hidden.
 
 1. Create a `where-is-my-cat.html` with a boiler empty body HTML code
 2. Create an empty `where-is-my-cat.js` 
