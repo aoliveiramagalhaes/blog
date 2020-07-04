@@ -48,9 +48,9 @@ const handleBoxClick = (boxNumber) => {
 
 
 ```html
-<a href="javascript:handleBoxClick(1)"><img src="./images/box1.png"></a>
-<a href="javascript:handleBoxClick(2)"><img src="./images/box2.png"></a>
-<a href="javascript:handleBoxClick(3)"><img src="./images/box3.png"></a>
+<a href="javascript:handleBoxClick(1)"><img src="./images/box.png"></a>
+<a href="javascript:handleBoxClick(2)"><img src="./images/box.png"></a>
+<a href="javascript:handleBoxClick(3)"><img src="./images/box.png"></a>
 ```
 
 Open the HTML in the browser and test if clicking on the images, an alert is displayed with the box index.
