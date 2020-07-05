@@ -17,7 +17,7 @@ Your daily schedule is a system composed of activities, I know, it is weird to e
 * go to work
 * ... 
 
-You do a lot of activities in your day. It tends to be a habit, a system you repeat consistently, and it is composed of activities, and some activities you can do more than once a day, for example, you can eat multiple times, for example, "I eat" and "I check my phone".
+You do a lot of activities in your day. It tends to be a habit, a system you repeat consistently, and it is composed of activities, and some activities you can do more than once a day, for example, you will probably eat multiple a day.
 
 If you want to translate that to a computer system, you can turn you in a system that you can run every day, and it will invoke multiple activities in order.
 
