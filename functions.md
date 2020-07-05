@@ -1,6 +1,6 @@
 ## Functions
 
-Remember, computers are stupid, they don't know what to do, you need to tell them step by step, they won't figure it out.
+Remember, computers are stupid, they don't know what to do, you need to tell them step by step, otherwise, they won't figure it out.
 
 You can tell what computers should do with statements, functions, conditions, and expressions. Don't worry about understanding the difference between them. You will get used to them like you use your own speaking language without remembering or even knowing all grammar rules that dictate the way you speak. 
 
