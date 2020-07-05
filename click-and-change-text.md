@@ -15,4 +15,4 @@ In the example above, when you click on the button, the text that is written in 
   
 To make this happen, the `<p>` needs an `id`.
 
-You need to add this `id` into the function ("result", so that the function will know which `<p>` needs to change. You also need to write the message you want to display ("hello")
+You need to add this `id` into the function ("result"), so that the function will know which `<p>` needs to change. You also need to write the message you want to display ("hello")
