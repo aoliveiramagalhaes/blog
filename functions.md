@@ -58,6 +58,51 @@ const eat = () => {
 // ... 
 ```
 
+Above, I created a function per activity. You may be wondering, why multiple functions and not just one:
+
+```javascript
+const executeDay = () => {
+  console.log('wake up')
+  console.log('please stop ringing, I hate you')
+  console.log('so relaxing! I am happy')
+  console.log('fresh and new')
+  console.log('yummy')
+  // ...
+}
+```
+
+There a few arguments for breaking an activity (function) down into multiple activites. A few of them would be, sometimes you can make optional to take a shower, some days in you are in rush and you don't eat your breakfast, and also, what we talk you probably eat multiple times a day, so you do the same activity multiple times.
+
+
+```javascript
+const executeDay = () => {
+  // ..
+  eat()
+  // ...
+}
+
+const takeABreak = () => {
+  // ...
+  eat()
+  // ...
+}
+```
+
+Well, the activity is the same, but I don't eat the same food for every meal. RIGHT!!! For that, you have parameters (often called arguments).  You can customize your activity with some additional input, for example, every time you go to the gym, you go to the gym. Still, it does not mean you do the same workout so that you can customize your activity behavior with parameters.
+
+```javascript
+const executeDay = () => {
+  // ..
+  eat('eggs and bacon')
+  // ...
+}
+
+const takeABreak = () => {
+  // ...
+  eat('cookie')
+  // ...
+}
+```
 
 
 ### How to declare an arrow function
