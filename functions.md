@@ -6,7 +6,7 @@ You can tell what computers should do with statements, functions, conditions, an
 
 Alright, let's go back to functions. I like to make analogies. You will see that going forward on my examples. 
 
-Your daily schedule is a system composed of activities, I know, it is weird to express it like, but in fact, it is, sometimes it is a bit dynamic, but for most people, it is a system that repeats every day.
+Your daily schedule is a system composed of activities, I know, it is weird to express it like that, but in fact, it is, sometimes it is a bit dynamic, but for most people, it is a system that repeats every day.
 
 * wake up
 * turn off the alarm
