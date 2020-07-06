@@ -86,10 +86,13 @@ You can change your function to instead of using `alert` to print out the answer
 <p id="result"></p>
 ```
 
+<details>
+  <summary>Solution</summary>
+  
 ```javascript
 const handleBoxClick = (boxNumber) => {
   // calls randomBox asking for a number from 1 to 3 and save into `boxWithCat`
-  const boxWithCat = randomBox(3)
+  const boxWithCat = getRandomBoxIndex(3)
   let result
   
   if(boxNumber === boxWithCat) {
@@ -101,5 +104,4 @@ const handleBoxClick = (boxNumber) => {
   document.getElementById('result').innerHTML = result
 }
 ```
-
-
+</details>
