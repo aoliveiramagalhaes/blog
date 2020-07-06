@@ -1,4 +1,4 @@
-## How to link a javascrip file into a HTML file
+## How to link a javascript file into a HTML file
 
 1. You need to create a `filename.js`
 2. Go to your index.html and add the following command at the bottom of your HTML body.
