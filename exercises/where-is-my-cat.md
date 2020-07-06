@@ -26,11 +26,11 @@ Let's display three boxes, and hide a cat in one of them. Then let's find out in
 #### Create a function to pick a random number
 
 ```javascript
-const randomBox = (max) => {
+const getRandomBoxIndex = (numberOfAvailableBoxes) => {
   // this function returns a random number from 1 to max
   // for example, if max is 3, it can return 1, 2 or 3
   
-  return Math.ceil(Math.random() * max)
+  return Math.ceil(Math.random() * numberOfAvailableBoxes)
 }
 ```
 
@@ -63,7 +63,7 @@ Open the HTML in the browser and test if clicking on the images, an alert is dis
 ```javascript
 const handleBoxClick = (boxNumber) => {
   // calls randomBox asking for a number from 1 to 3 and save into `boxWithCat`
-  const boxWithCat = randomBox(3)
+  const boxWithCat = getRandomBoxIndex(3)
   
   if(boxNumber === boxWithCat) {
     alert('Cat found. congrats! Can you see through boxes?!')
