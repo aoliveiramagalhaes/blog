@@ -57,6 +57,9 @@ Open the HTML in the browser and test if clicking on the images, an alert is dis
 
 #### Make it work
 
+<details>
+  <summary>Solution</summary>
+  
 ```javascript
 const handleBoxClick = (boxNumber) => {
   // calls randomBox asking for a number from 1 to 3 and save into `boxWithCat`
@@ -69,6 +72,7 @@ const handleBoxClick = (boxNumber) => {
   } 
 }
 ```
+</details>
 
 #### Bonus
 
