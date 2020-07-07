@@ -53,7 +53,7 @@ const finalGrade = (grade1, grade2, grade3) => {
         return "A"
     }
 
-console.log(finalGrade(101, 92, 95)) // Should print 'A'
+console.log(finalGrade(101, 92, 95)) // Should print 'You have entered an invalid grade.'
 console.log(finalGrade(83, 80, 90)) // Should print 'B'
 console.log(finalGrade(65, 81, 78)) // Should print 'C'
 
