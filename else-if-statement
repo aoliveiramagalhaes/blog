@@ -17,4 +17,5 @@ const lifePhase = (age) => {
         return 'This is not a valid age'
     }
 }
+
 ```
