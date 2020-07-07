@@ -1,6 +1,6 @@
 ## else if statement - syntax
 
-```` javascript
+```javascript
 
 const lifePhase = (age) => {
     if (age > 0 && age <= 3) {
