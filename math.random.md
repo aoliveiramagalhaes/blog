@@ -14,6 +14,7 @@ Return a random number between 1 and 10:
 Math.floor((Math.random() * 10) + 1);
 
 ```
+
 Since we actually wanted numbers from 1 to 10, inclusive, we added 1.
 
 **Example 2:**
@@ -24,7 +25,7 @@ Return a random number between 0 and 10:
 
 console.log(Math.floor(Math.random() * 11))
 
-``
+```
 
 Please note that `<Math.floor>` rounds down to the nearest whole number. 
 
@@ -34,8 +35,8 @@ If you want the number 10, you need to write 11 in your code. It's always += 1.
 
 **Note**
 
-*Math.random() does not provide cryptographically secure random numbers. Do not use them for anything related to security. 
-Use the Web Crypto API instead, and more precisely the window.crypto.getRandomValues() method.*
+*Math.random() does not provide cryptographically secure random numbers. Do not use them for anything related to security.* 
+*Use the Web Crypto API instead, and more precisely the window.crypto.getRandomValues() method.*
 
 
 
