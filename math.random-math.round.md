@@ -38,5 +38,29 @@ If you want the number 10, you need to write 11 in your code. It's always += 1.
 *Math.random() does not provide cryptographically secure random numbers. Do not use them for anything related to security.* 
 *Use the Web Crypto API instead, and more precisely the window.crypto.getRandomValues() method.*
 
+## what is Math.round()?
 
+The Math.round() function returns the value of a number rounded to the nearest integer.
+
+**Note**
+
+2.49 will be rounded down (2), and 2.5 will be rounded up (3).
+
+**Example 3:**
+
+A person’s number of imaginary friends are always 33% of their total friends.
+
+Write a function, numImaginaryFriends(), that takes in the total number of friends a person has and returns the number of imaginary friends they have.
+
+Since friends can only come in whole numbers, be sure to round your result before returning it.
+
+```javascript
+
+const numImaginaryFriends = (totalFriends) => {
+return Math.round(totalFriends * .33);
+}
+
+console.log(numImaginaryFriends(18)) // Should print 6
+
+```
 
