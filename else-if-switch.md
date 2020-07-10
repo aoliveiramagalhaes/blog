@@ -51,6 +51,37 @@ If you use console.log() or set a value, then you need to add a break after each
 
 ```javascript
 
+const toEmoticon = (emoticon) => {
+
+    switch (emoticon) {
+        case 'shrug':
+            return '|_{"}_|'
+        case 'smiley face':
+            return ':)'
+        case 'frowny face':
+            return ':('
+        case 'winky face':
+            return ';)'
+        case 'heart':
+            return '<3'
+        default:
+            return '|_(* ~ *)_|'
+    }
+}
+
+console.log(toEmoticon("whatever"))
+console.log(toEmoticon("frowny face"))
+console.log(toEmoticon("heart"))
+  // Should print  |_(* ~ *)_|
+  // Should print  :(
+  // Should print  <3
+  
+  ```
+  
+**Example 3:**
+
+```javascript
+
 let athleteFinalPosition = 'first place';
   switch (athleteFinalPosition) {
     case 'first place':
@@ -69,7 +100,7 @@ let athleteFinalPosition = 'first place';
 
 ```
 
-**Example 3:**
+**Example 4:**
 
 ```javascript
 
