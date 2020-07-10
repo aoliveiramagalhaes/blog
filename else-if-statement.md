@@ -1,5 +1,7 @@
 ## else if statement - syntax
 
+**Example 1**
+
 ```javascript
 
 const lifePhase = (age) => {
@@ -19,6 +21,37 @@ const lifePhase = (age) => {
 }
 
 ```
+
+**Example 2**
+
+```javascript
+
+const whatRelation = percentSharedDNA => {
+    if (percentSharedDNA === 100) {
+        return 'You are likely identical twins.'
+    } else if (percentSharedDNA >= 35 && percentSharedDNA <= 99) {
+        return 'You are likely parent and child or full siblings.'
+    } else if (percentSharedDNA >= 14 && percentSharedDNA <= 34) {
+        return 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
+    } else if (percentSharedDNA >= 6 && percentSharedDNA <= 13) {
+        return 'You are likely 1st cousins.'
+    } else if (percentSharedDNA >= 3 && percentSharedDNA <= 5) {
+        return 'You are likely 2nd cousins.'
+    } else if (percentSharedDNA >= 1 && percentSharedDNA <= 2) {
+        return 'You are likely 3rd cousins'
+    } else if (percentSharedDNA === 0) {
+        return 'You are likely not related.'
+    }
+}
+
+console.log(whatRelation(34))
+// Should print 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
+
+console.log(whatRelation(3))
+// Should print 'You are likely 2nd cousins.'
+
+```
+
 ## else if statement - calculating average
 
 Write a function, finalGrade(). It should:
