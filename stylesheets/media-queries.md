@@ -61,3 +61,27 @@ The example above can be written using two separate rules as well:
 The first media query in the example above will apply CSS rules when the size of the screen meets or exceeds 320 pixels. The second media query will then apply CSS rules when the size of the screen meets or exceeds 480 pixels, meaning that it can override CSS rules present in the first media query or apply additional CSS rules that are not already present in the first.
 
 Both examples above are valid, and it is likely that you will see both patterns used when reading another developer’s code.
+
+Example 3
+
+If only one of multiple media features in a media query must be met, media features can be separated in a comma separated list.
+
+For example, if we needed to apply a style when only one of the below is true:
+
+* The screen is more than 480 pixels wide
+
+* The screen is in landscape mode
+
+We could write:
+
+```css
+
+@media only screen and (min-width: 480px), (orientation: landscape) {
+    /* CSS ruleset */
+}
+
+```
+
+In the example above, we used a comma (,) to separate multiple rules. The example above requires only one of the media features to be true for its CSS to apply.
+
+Note that the second media feature is orientation. The orientation media feature detects if the page has more width than height. If a page is wider, it’s considered landscape, and if a page is taller, it’s considered portrait.
