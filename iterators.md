@@ -21,13 +21,13 @@ fruits.forEach(fruitsItem => console.log(`I want to eat a ${fruitsItem}`));
 
 **Let’s explore the syntax of invoking** `.forEach()`
 
-`fruits.forEach()` calls the forEach method on the fruits array.
+* `fruits.forEach()` calls the forEach method on the fruits array.
 
-`.forEach()` takes an argument of callback function. Remember, a callback function is a function passed as an argument into another function.
+* `.forEach()` takes an argument of callback function. Remember, a callback function is a function passed as an argument into another function.
 
-`.forEach()` loops through the array and executes the callback function for each element. During each execution, the current element is passed as an argument to the callback function.
+* `.forEach()` loops through the array and executes the callback function for each element. During each execution, the current element is passed as an argument to the callback function.
 
-The return value for `.forEach()` will always be **undefined.**
+* The return value for `.forEach()` will always be **undefined.**
 
 ## The .map() Method
 
@@ -46,13 +46,13 @@ const bigNumbers = numbers.map(number => {
 
 In the example above:
 
-numbers is an array of numbers.
+* numbers is an array of numbers.
 
-bigNumbers will store the return value of calling `.map()` on numbers.
+* bigNumbers will store the return value of calling `.map()` on numbers.
 
-`numbers.map` will iterate through each element in the numbers array and pass the element into the callback function.
+* `numbers.map` will iterate through each element in the numbers array and pass the element into the callback function.
 
-return number * 10 is the code we wish to execute upon each element in the array. This will save each value from the numbers array, multiplied by 10, to a new array.
+* return number * 10 is the code we wish to execute upon each element in the array. This will save each value from the numbers array, multiplied by 10, to a new array.
 
 ```javascript
 
@@ -105,12 +105,14 @@ const lessThanTen = jumbledNums.findIndex(num => {
 
 ```
 
-jumbledNums is an array that contains elements that are numbers.
+* jumbledNums is an array that contains elements that are numbers.
 
-const lessThanTen = declares a new variable that stores the returned index number from invoking `.findIndex()`.
+* const lessThanTen = declares a new variable that stores the returned index number from invoking `.findIndex()`.
 
-The callback function is an arrow function has a single parameter, num. Each element in the jumbledNums array will be passed to this function as an argument.
-num < 10; is the condition that elements are checked against. `.findIndex()` will return the index of the first element which evaluates to true for that condition.
+* The callback function is an arrow function has a single parameter, num. Each element in the jumbledNums array will be passed to this function as an argument.
+
+* num < 10; is the condition that elements are checked against. `.findIndex()` will return the index of the first element which evaluates to true for that condition.
+
 Let’s take a look at what lessThanTen evaluates to:
 
 ```javascript
@@ -154,4 +156,33 @@ console.log(summedNums) // Output: 17
 Here are the values of accumulator and currentValue as we iterate through the numbers array:
 
 Iteration	accumulator	currentValue	return value
+
+![image](https://user-images.githubusercontent.com/66221314/89744218-d43e3a00-da78-11ea-987f-68e1376c8bc9.png)
+
+Now let’s go over the use of `.reduce()` from the example above:
+
+* numbers is an array that contains numbers.
+
+* summedNums is a variable that stores the returned value of invoking .reduce() on numbers.
+
+* `numbers.reduce()` calls the `.reduce()` method on the numbers array and takes in a callback function as argument.
+
+* The callback function has two parameters, accumulator and currentValue. The value of accumulator starts off as the value of the first element in the array and the currentValue starts as the second element. To see the value of accumulator and currentValue change, review the chart above.
+
+As `.reduce()` iterates through the array, the return value of the callback function becomes the accumulator value for the next iteration, currentValue takes on the value of the current element in the looping process.
+
+The `.reduce()` method can also take an optional second parameter to set an initial value for accumulator (remember, the first argument is the callback function!). For instance:
+
+```javascript
+
+const numbers = [1, 2, 4, 10];
+
+const summedNums = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+}, 100)  // <- Second argument for .reduce()
+
+console.log(summedNums); // Output: 117
+
+```
+Here’s an updated chart that accounts for the second argument of 100:
 
