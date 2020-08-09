@@ -134,3 +134,24 @@ const greaterThan1000 = jumbledNums.findIndex(num => {
 console.log(greaterThan1000); // Output: -1
 
 ```
+
+## The .reduce() Method
+
+Another widely used iteration method is .reduce(). The .reduce() method returns a single value after iterating through the elements of an array, thereby reducing the array. Take a look at the example below:
+
+```javascript
+
+const numbers = [1, 2, 4, 10];
+
+const summedNums = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+})
+
+console.log(summedNums) // Output: 17
+
+```
+
+Here are the values of accumulator and currentValue as we iterate through the numbers array:
+
+Iteration	accumulator	currentValue	return value
+
