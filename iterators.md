@@ -186,3 +186,5 @@ console.log(summedNums); // Output: 117
 ```
 Here’s an updated chart that accounts for the second argument of 100:
 
+![image](https://user-images.githubusercontent.com/66221314/89744322-c1783500-da79-11ea-9bdf-0e72c7999e3e.png)
+
