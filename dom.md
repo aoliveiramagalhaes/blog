@@ -24,3 +24,25 @@ nextTwo.onclick = function () {
   document.getElementById('word-six').innerHTML = 'FRI-';
 };
 ```
+There are more three different ways of adding event listeners or event handler:
+
+```javascript
+const eventAssignment = function (note) {
+ // example1
+  note.onmousedown = keyPlay
+  note.onmouseup = keyReturn
+  
+  // example2
+  note.addEventListener('mousedown', keyPlay)
+  note.addEventListener('mouseup', keyReturn)
+};
+  // example3
+const eventAssignment = function (note) {
+  note.onmousedown = function () {
+    keyPlay(event)
+  }
+    note.onmouseup = function () {
+    keyReturn(event)
+    }
+}
+```
