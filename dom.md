@@ -54,5 +54,5 @@ const eventAssignment = function (note) {
     note.onmouseup = function () {
     keyReturn(event)
     }
-}
+};
 ```
