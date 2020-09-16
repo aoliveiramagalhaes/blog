@@ -11,6 +11,13 @@ To access elements by their IDs use
 document.getElementByID('targetElement')
 ```
 To change the content of an element in JavaScript use the `.innerHTML` property on the element.
+You can combine both if necessary:
+
+```javascript
+
+document.getElementByID('targetElement').innerHTML = 'This is new text content.';
+
+```
 
 **Example**
 
@@ -29,13 +36,16 @@ There are more three different ways of adding event listeners or event handler:
 ```javascript
 const eventAssignment = function (note) {
  // example1
-  note.onmousedown = keyPlay
-  note.onmouseup = keyReturn
+  note.onmousedown = keyPlay;
+  note.onmouseup = keyReturn;
+ };
   
   // example2
+ const eventAssignment = function (note) {
   note.addEventListener('mousedown', keyPlay)
   note.addEventListener('mouseup', keyReturn)
 };
+
   // example3
 const eventAssignment = function (note) {
   note.onmousedown = function () {
