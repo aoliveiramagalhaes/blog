@@ -142,4 +142,17 @@ const sayHello = () => {
 // function invocation
 sayHello()
 ```
+### Arrow function vs. Traditional function declaration
 
+```javascript
+// traditional function declaration
+function functionName() {
+// this is the function body
+}
+
+//arrow function declaration
+const functionName = () => {
+  // this is the function body
+}
+
+```
