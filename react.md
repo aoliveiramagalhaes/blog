@@ -23,4 +23,7 @@ Let’s review. Follow each step in the code editor:
 
 ### Images
 
-![Parent](/images/logo.png)
+![Parent](./Parent.png)
+![Child](./Child.png)
+![Sibling](./Sibling.png)
+
